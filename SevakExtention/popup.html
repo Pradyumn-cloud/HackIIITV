@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sevak - Government Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero-section active" id="heroSection">
+    <div class="controls">
+      <button class="control-button" id="heroMinimizeButton">−</button>
+      <button class="control-button" id="heroCloseButton">×</button>
+    </div>
+    <div class="hero-content">
+      <h1>Meet Sevak!</h1>
+      <div class="assistant-logo">
+        <img src="gif.gif" alt="Sevak Assistant Logo">
+      </div>
+      <p>Your smart assistant for every sarkari service</p>
+      <button class="chat-button" id="chatButton">Let's Chat Now</button>
+    </div>
+  </div>
+
+  <!-- Chat Container -->
+  <div class="chat-container" id="chatContainer">
+    <div class="accent-circle circle-1"></div>
+    <div class="accent-circle circle-2"></div>
+    <div class="chat-header" id="chatHeader">
+      <div class="controls">
+        <button class="control-button" id="chatMinimizeButton">−</button>
+        <button class="control-button" id="chatCloseButton">×</button>
+      </div>
+      <h2>Hello there.</h2>
+      <h1>How can I help?</h1>
+    </div>
+    <div class="chat-input-area" id="chatInputArea">
+      <div class="chat-messages" id="chatMessages"></div>
+      <div class="chat-input">
+        <div class="profile-pic"></div>
+        <input type="text" id="chatInput" placeholder="Ask a question">
+        <button id="sendButton">></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
