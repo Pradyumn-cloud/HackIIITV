@@ -1,7 +1,3 @@
-Hello everyone this is Team Brainrot.
-
-Team Member - Basudev Mahapatro, Pradyumn Prasad, Jay Hire, Manthan Singla
-
 We made a chrome extention named- "Sevak"
 
 🚀 Features
