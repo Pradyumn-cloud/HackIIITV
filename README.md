@@ -1,8 +1,8 @@
 # AI Chatbot- "Sevak"
 
 ## Simplify Government Website for You
-![Alt text](../HackIIITV/images/s1.png) 
-![Alt text](../HackIIITV/images/s2.png) 
+![Alt text](https://raw.githubusercontent.com/Pradyumn-cloud/HackIIITV/refs/heads/main/images/s1.png) 
+![Alt text](https://github.com/Pradyumn-cloud/HackIIITV/blob/main/images/s2.png?raw=true) 
 
 ## Features
 
