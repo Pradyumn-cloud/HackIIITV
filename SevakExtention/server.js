@@ -1,6 +1,9 @@
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const app = express();
 const port = 3000;
@@ -10,8 +13,8 @@ app.use(express.json());
 app.use(cors()); // Enable CORS to allow frontend requests
 
 // API Keys
-const tavilyKey = "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";
-const togetherKey = "f7aefe2e695efef32ef0a2fa5ccdb0dd15f8b70a982605c9d439a0a3f2eecfe4";
+const tavilyKey = process.env.TAVILY_API_KEY;
+const togetherKey = process.env.TOGETHER_API_KEY;
 
 // Custom LangChain helper class implementation
 class LangChainHelper {
