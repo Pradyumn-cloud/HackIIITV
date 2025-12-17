@@ -1,5 +1,9 @@
 # AI Chatbot- "Sevak"
 
+## Simplify Government Website for You
+![Alt text](../HackIIITV/images/s1.png) 
+![Alt text](../HackIIITV/images/s2.png) 
+
 ## Features
 
 * **Simplified Navigation**: Helps users understand and follow complicated government processes.
